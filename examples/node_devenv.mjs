@@ -24,7 +24,7 @@
 // **Note:** Make sure your microphone and speakers are properly configured and accessible on your Mac.
 //
 
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@djordjethai/positive-realtime';
 import mic from 'mic';
 import { Readable } from 'stream';
 import Speaker from 'speaker';

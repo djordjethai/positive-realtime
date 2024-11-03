@@ -6,7 +6,7 @@ to OpenAI's Realtime API.
 You can use it to easily prototype conversational apps.
 
 **The easiest way to get playing with the API right away** is to use the
-[**Realtime Console**](https://github.com/openai/openai-realtime-console), it uses
+[**Realtime Console**](https://github.com/djordjethai/positive-realtime), it uses
 the reference client to deliver a fully-functional API inspector with examples
 of voice visualization and more.
 
@@ -17,11 +17,11 @@ in both JavaScript and TypeScript codebases. While in beta, to install the libra
 need to `npm install` directly from the GitHub repository.
 
 ```shell
-$ npm i openai/openai-realtime-api-beta --save
+$ npm i djordjethai/positive-realtime --save
 ```
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@djordjethai/positive-realtime';
 
 const client = new RealtimeClient({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -58,7 +58,7 @@ You can use this client directly from the browser in e.g. React or Vue apps.
 In order to instantiate the client in a browser environment, use:
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@djordjethai/positive-realtime';
 
 const client = new RealtimeClient({
   apiKey: process.env.OPENAI_API_KEY,
@@ -67,7 +67,7 @@ const client = new RealtimeClient({
 ```
 
 If you are running your own relay server, e.g. with the
-[Realtime Console](https://github.com/openai/openai-realtime-console), you can
+[Realtime Console](https://github.com/djordjethai/positive-realtime), you can
 instead connect to the relay server URL like so:
 
 ```javascript
