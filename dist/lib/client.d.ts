@@ -26,7 +26,7 @@
  * @property {string} [model]
  * @property {string[]} [modalities]
  * @property {string} [instructions]
- * @property {"sage" | "shimmer" |"alloy" | "coral" | "echo"} [voice]
+ * @property {"coral" | "sage" | "shimmer" | "alloy" | "echo" | "ash" | "ballad" | "verse"} [voice]
  * @property {AudioFormatType} [input_audio_format]
  * @property {AudioFormatType} [output_audio_format]
  * @property {AudioTranscriptionType|null} [input_audio_transcription]
@@ -336,7 +336,7 @@ export type SessionResourceType = {
     model?: string;
     modalities?: string[];
     instructions?: string;
-    voice?: "sage" | "shimmer" |"alloy" | "coral" | "echo";
+    voice?: "coral" | "sage" | "shimmer" | "alloy" | "echo" | "ash" | "ballad" | "verse";
     input_audio_format?: AudioFormatType;
     output_audio_format?: AudioFormatType;
     input_audio_transcription?: AudioTranscriptionType | null;
